@@ -25,11 +25,13 @@ public class WordsContent {
 
     private static final int COUNT = 25;
 
-    static {
         // Add some sample items.
-        addItem(new WordsItem("1","Apple","This is an apple"));
-        addItem(new WordsItem("2","Banana","This is a banana"));
-        addItem(new WordsItem("3","Orange","This is an orange"));
+     static {
+         addItem(new WordsItem("1", "Apple", "Apple"));
+         addItem(new WordsItem ("2", "Orange", " Orange "));
+         addItem(new WordsItem ("3", "Banana", " Banana "));
+         addItem(new WordsItem ("4", "Lemon", " Lemon "));
+
     }
 
     private static void addItem(WordsItem item) {
